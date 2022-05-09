@@ -1,0 +1,37 @@
+package exerciciosrepeticao;
+
+import java.util.Scanner;
+
+/*3- Solicitar a idade de várias pessoas e imprimir: Total de pessoas com menos de
+21 anos. Total de pessoas com mais de 50 anos. O programa termina quando
+idade for =-99. (WHILE)*/
+
+public class exercicio3While {
+
+	public static void main(String[] args) {
+		
+		int idade;
+		Scanner leia = new Scanner (System.in);
+		idade = leia.nextInt();
+		
+		System.out.println("Digite a sua idade: ");
+		System.out.println(idade);
+		
+		while (idade>=-98) {
+			if (idade<21) {
+				idade++;
+				System.out.println("\nO número de pessoas com menos de 21 anos é: " + idade);
+			}
+			
+			else if (idade>50) {
+				idade++;
+				System.out.println("\nO número de pessoas com mais de 50 anos é: " + idade);
+			}
+			
+			System.out.println("Digite a sua idade: ");
+			System.out.println(idade);
+	}
+
+}
+	
+}

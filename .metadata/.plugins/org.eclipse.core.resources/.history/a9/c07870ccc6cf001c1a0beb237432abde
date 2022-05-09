@@ -1,0 +1,22 @@
+package exerciciosrepeticao;
+
+//2- Ler 10 números e imprimir quantos são pares e quantos são ímpares. (FOR)
+
+import java.util.*;
+
+public class exercicio2For {
+
+	public static void main(String[] args) {
+		
+		int num, numPar, numImpar; 
+		Scanner ler = new Scanner (System.in);
+		
+		
+		for (int contador=0;contador<10;contador++) {
+			System.out.println("Digite 10 números: ");
+			num = ler.nextInt();
+		}
+
+	}
+
+}
