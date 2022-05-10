@@ -1,0 +1,52 @@
+package vetoresEMatrizes;
+
+import java.util.Scanner;
+
+public class exemploArrayVetor {
+	
+	public static void main (String [] args) {
+		
+	Scanner entrada = new Scanner(System.in);
+	entrada.close();
+	
+	int [] arrayUm = {12, 3, 5, 68, 9, 6, 73, 44, 456, 65, 321}; //1º vetor
+	int [] arrayDois = {43, 42, 4, 8, 55, 21, 2, 45}; //2º vetor
+	
+	// populando um array
+	
+	float[] nota = new float[5]; //3º vetor
+			
+	for(int i=0;i<5;i++) {
+		
+		System.out.println("Digite uma nota: ");
+		nota[i]=entrada.nextFloat();
+	}
+	
+	
+	//tamanho do array. utilização do comando length que conta o array até o final.
+	
+	if (arrayDois.length >8) {
+		System.out.println("O tamanho do 2º vetor (arrayDois) é maior que 8.");
+	}
+	else {
+		System.out.println("O tamanho do 2º vetor (arrayDois) é menor que 8.");
+	}
+	
+	System.out.println("O tamanho do 1º vetor (arrayUm) é: " + arrayUm.length);
+		
+	//utilização do for-each
+		
+	String [] cars = {"Volvo", "", "Fusca", "", "Stilo", "Opala"};
+		
+	for (String i : cars) { //i é a variável que vai contar o índice do vetor
+		System.out.println(i);
+		}	
+			
+	
+	// apresentando um array
+	
+	for (int i=0;i<5;i++) {
+		System.out.println("Nota " + i + 1 + "=" + nota[i]);
+	}	
+	}
+}
