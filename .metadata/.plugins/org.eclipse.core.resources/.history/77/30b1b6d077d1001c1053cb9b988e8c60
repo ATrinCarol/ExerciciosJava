@@ -1,0 +1,26 @@
+package orientacaoobjetos;
+
+public class Aviao {
+
+	public static void main(String[] args) {
+
+		MoldeAviao aviao = new MoldeAviao ();
+		
+		
+		
+		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+		System.out.println("Cor do avião: ");
+		aviao.cor = "Cinza";
+		System.out.println("Tamanho do avião ");
+		aviao.tamanho = 70; 
+		System.out.println("Capacidade do avião: ");
+		aviao.capacidade = 3000;
+		System.out.println("Destino do avião: ");
+		aviao.destino = "China";
+		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+		
+		
+		
+	}
+
+}
