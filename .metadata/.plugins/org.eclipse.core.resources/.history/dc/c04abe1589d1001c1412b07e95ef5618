@@ -1,0 +1,24 @@
+package orientacaoobjetos;
+
+public class MoldeProdutoEletronico {
+	
+	public String tipo;
+	public String marca;
+	public String cor;
+	public double peso;
+	public boolean ligado;
+	public double preco;
+	
+	
+	public void getComprar()
+	{
+		if (this.preco>2000.00) {
+			System.out.println("Muito caro, colocar na lista.");
+		}
+		else
+		{
+			System.out.println("Colocar no carrinho!");
+		}
+
+	}
+}

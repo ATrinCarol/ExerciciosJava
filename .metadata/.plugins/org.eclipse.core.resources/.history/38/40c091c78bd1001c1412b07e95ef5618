@@ -1,0 +1,12 @@
+package orientacaoobjetos;
+
+public class ProdutoEletronico {
+
+	public static void main(String[] args) {
+		
+		MoldeProdutoEletronico produtoEletro = new MoldeProdutoEletronico ();
+		
+				
+	}
+
+}

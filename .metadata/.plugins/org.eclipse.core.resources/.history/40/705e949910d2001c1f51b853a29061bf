@@ -1,0 +1,11 @@
+package orientacaoobjetos;
+
+public class Preguica extends Animal {
+	
+	public String subir;
+	
+	public void subaNaArvore () {
+		this.subir = "A preguiça subiu na árvore";
+	}
+
+}

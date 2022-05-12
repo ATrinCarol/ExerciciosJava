@@ -1,0 +1,19 @@
+package orientacaoobjetos;
+
+public class CachorroCavaloPreguica {
+
+	public static void main(String[] args) {
+
+		Cachorro dog = new Cachorro ();
+		Cavalo horse = new Cavalo ();
+		Preguica lazy = new Preguica ();
+		
+		dog.nome="Cachorro";
+		dog.idade=10;
+		dog.som="Auau";
+		dog.correr=0;
+		dog.Corra();
+		dog.emitirUmSom();
+	}
+
+}

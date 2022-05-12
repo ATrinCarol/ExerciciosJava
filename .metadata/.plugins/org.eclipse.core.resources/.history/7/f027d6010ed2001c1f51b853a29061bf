@@ -1,0 +1,14 @@
+package orientacaoobjetos;
+
+public class Animal {
+	
+	public String nome;
+	public int idade;
+	public String som;
+	
+	public void emitirUmSom() {
+		
+		System.out.println("É o som de um(a): " + this.som);
+	}
+	
+}

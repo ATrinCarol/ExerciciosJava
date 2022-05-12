@@ -1,0 +1,19 @@
+package orientacaoobjetos;
+
+import java.util.*;
+
+public class ProdutoEletronico {
+
+	public static void main(String[] args) {
+		
+		MoldeProdutoEletronico produtoEletro = new MoldeProdutoEletronico ();
+		
+		Scanner ler = new Scanner (System.in);
+		
+		System.out.println("Sobre o produto: ");
+		// produtoEletro.getCaracteristicas(); //COMO PREENCHER ISSO AQUI?
+		
+				
+	}
+
+}
