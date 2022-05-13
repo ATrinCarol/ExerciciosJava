@@ -1,0 +1,12 @@
+package orientacaoobjetos;
+
+public class Cavalo extends Animal {
+	
+	public String correr;
+	
+	public void correPocotó() {
+		System.out.println(this.correr + ", corre pocotó"); 
+		
+	}
+
+}

@@ -4,7 +4,7 @@ public class Cachorro extends Animal {
 	
 	public int correndo;
 	
-	
+	@Override
 	public void Corra() {
 		
 		if (this.correndo<=0)

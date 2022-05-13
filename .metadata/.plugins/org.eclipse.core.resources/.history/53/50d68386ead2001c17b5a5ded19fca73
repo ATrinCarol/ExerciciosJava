@@ -1,0 +1,27 @@
+package orientacaoobjetos;
+
+public class Cavalo extends Cachorro {
+	
+	public String correr;
+	public int correndo;
+	
+	public void correPocotó() {
+		System.out.println(this.correr + ", corre pocotó"); 
+		
+	}
+	
+	@Override
+	public void Corra() {
+		
+		if (this.correndo<=0)
+		{
+			System.out.println("O cavalo está dormindo!");
+		}
+			
+		else
+		{
+			System.out.println("\nO cavalo correu!");
+		}
+	}
+
+}

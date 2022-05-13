@@ -27,7 +27,7 @@ public class Cavalo extends Cachorro {
 			
 		else
 		{
-			System.out.println("O cavalo correu!");
+			System.out.println("\nO cavalo correu!");
 		}
 	}
 

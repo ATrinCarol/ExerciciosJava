@@ -2,12 +2,11 @@ package orientacaoobjetos;
 
 public class Cachorro extends Animal {
 	
-	public int correndo;
-	
+	public int correr;
 	
 	public void Corra() {
 		
-		if (this.correndo<=0)
+		if (this.correr<=0)
 		{
 			System.out.println("O cachorro está dormindo!");
 		}

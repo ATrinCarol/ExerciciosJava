@@ -15,7 +15,7 @@ public class CachorroCavaloPreguica {
 		dog.escreverNome();
 		dog.verIdade();
 		dog.emitirUmSom();
-		dog.Corra(); //lembrar: polimorfismo sobreposição
+		dog.Corra();
 		
 		System.out.println("\n****************************");
 		
@@ -23,13 +23,10 @@ public class CachorroCavaloPreguica {
 		horse.idade=50;
 		horse.som="Hiin in in";
 		horse.correr="Cooorre";
-		horse.correndo=1;
 		horse.escreverNome();
 		horse.verIdade();
 		horse.emitirUmSom();
 		horse.correPocotó();
-		
-		horse.Corra(); //lembrar: polimorfismo sobreposição
 		
 		System.out.println("\n****************************");
 		
