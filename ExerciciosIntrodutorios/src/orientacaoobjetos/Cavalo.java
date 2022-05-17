@@ -29,6 +29,23 @@ public class Cavalo extends Cachorro {
 		{
 			System.out.println("O cavalo correu!");
 		}
+		
+		
 	}
-
+	
+	
+	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

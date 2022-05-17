@@ -13,6 +13,7 @@ public class CachorroCavaloPreguica {
 		dog.som="Auau";
 		dog.correndo=0;
 		dog.escreverNome();
+		dog.chamaONome("Slinky.");
 		dog.verIdade();
 		dog.emitirUmSom();
 		dog.Corra(); //lembrar: polimorfismo sobreposição
@@ -25,6 +26,7 @@ public class CachorroCavaloPreguica {
 		horse.correr="Cooorre";
 		horse.correndo=1;
 		horse.escreverNome();
+		horse.chamaONome("Bala", " no Alvo.");
 		horse.verIdade();
 		horse.emitirUmSom();
 		horse.correPocotó();
@@ -38,6 +40,7 @@ public class CachorroCavaloPreguica {
 		lazy.som="Anh Anh";
 		lazy.subiu="Sim!!!";
 		lazy.escreverNome();
+		lazy.chamaONome("Cochilo");
 		lazy.verIdade();
 		lazy.emitirUmSom();
 		lazy.subaNaArvore();

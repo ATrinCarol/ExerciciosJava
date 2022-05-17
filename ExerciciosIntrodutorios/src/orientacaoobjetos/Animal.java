@@ -24,13 +24,17 @@ public abstract class Animal {
 	}
 	// MÉTODO POLIMORFO DE SOBRECARGA
 	public String chamaONome (String nome1) { //Método com nomes iguais e assinaturas diferentes.
-		String nomeAnimal = nome1;
-		return nomeAnimal;
+		this.nomePet = nome1;
+		return this.nomePet;
 	}
 	
-	public String chamaONome (String nome1, String nome2) { //chamaONome, viu? Nomes iguais. Mas
-		String nomeAnimal = nome1+nome2;    // a assinatura, o parâmetro () o conteúdo que vai  
-		return nomeAnimal;                  // dentro dos parênteses, é diferente.
-	}                                       // Pode ser pela quantidade, ou tipo.
+	public String chamaONome (String nome1, String nome2) { 
+		this.nomePet = nome1+nome2;                                        
+	    return this.nomePet;
+}
 	
 }
+
+/*chamaONome, viu? Nomes iguais. Mas a assinatura, o parâmetro () o conteúdo que vai
+ * dentro dos parênteses, é diferente. Pode ser pela quantidade, ou tipo.
+ */
